@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/style/navbar.css" />
+		<link rel="stylesheet" href="/style/global.css" />
+		<link rel="stylesheet" href="/style/home.css" />
+		<link rel="stylesheet" href="/style/cardT.css" />
+		<link rel="stylesheet" href="/style/projects.css">
+		<title>Pycodec</title>
+	</head>
+	<body>
+		<header> <!--=========navbar=========== -->
+			<nav class="nav-bar">
+				<div class="logo">
+					<h1>Logo</h1>
+				</div>
+				<div class="nav-list">
+					<ul>
+						<li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Portifolios</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+					</ul>
+				</div>
+
+				<div class="mobile-menu-icon">
+					<button onclick="menuShow()"><img src="/image/menu_white_36dp.svg" /></button>
+				</div>
+			</nav>
+			<div class="mobile-menu">
+				<ul>
+					<li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Portifolios</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!--frase de capa-->
+
+		<div class="container-footer">
+			<h1 id="title">
+				Transformando ideias <br />
+				em páginas web de sucesso
+			</h1>
+			<br />
+			<h2>
+				a Pycode constrói seu futuro digital<br />
+				pixel por pixel.
+			</h2>
+		</div>
+
+		<!--card de portifolio-->
+
+		<section id="s-projects">
+			<div class="grid-layout">
+			  <h2 class="delaySmallReveal">Projetos</h2>
+			  <div id="projects">
+				<article class="intervalCardReveal tdc">
+				  <h3>Tempo de criança</h3>
+				  <p>
+					Site institucional, feito em HTML, Css e
+					JavaScript.
+				  </p>
+	
+				  <a
+					href="#"
+					rel="noopener"
+					target="_blank"
+					id="tdc"
+					>Visualizar projeto
+				  </a>
+				</article>
+	
+				
+				<article class="intervalCardReveal none">
+				  <h3>Em construção...</h3>
+				  <p>
+					Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+				  </p>
+				</article>
+	
+				<article class="intervalCardReveal none">
+				  <h3>Em construção...</h3>
+				  <p>
+					Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+				  </p>
+				</article>
+			  </div>
+		  </section>
+
+		<!--Card de cada um de nós-->
+
+		<div class="sobre-nos">
+			<h1 id="title">Sobre nós<br /></h1>
+			<br />
+			<h3>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+				lorem ipsum dolor sit amet consectetur adipisicing <br />
+				amet consectetur dolor sit
+			</h3>
+		</div>
+
+		<div class="text-about">
+			<div class="foto-info">
+				<div class="foto-pycode">
+					<img src="/image/imagem branca.webp" />
+				</div>
+				<div class="text-info">
+					<h2>Pycode</h2>
+					<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit...</h4>
+				</div>
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/pycode" target="_blank">
+						<img src="/icons/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon" />
+					</a>
+				</div>
+			</div>
+	
+			<div class="foto-info">
+				<div class="foto-bruna">
+					<img src="/image/imagem branca.webp" />
+				</div>
+				<div class="text-info">
+					<h2>Bruna</h2>
+					<h4>Profissional Back-end apaixonada pela tecnologia, atuando na integração de interfaces
+						elegantes por meio de requisições precisas às APIa e servidores
+					</h4>
+				</div>
+				<div class="social-icons">
+					<a href="https://github.com/bruna" target="_blank">
+						<img src="/icons/github-o-svgrepo-com.svg" alt="GitHub" class="icon" />
+					</a>
+					<a href="https://www.linkedin.com/in/bruna" target="_blank">
+						<img src="/icons/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon" />
+					</a>
+				</div>
+			</div>
+	
+			<div class="foto-info">
+				<div class="foto-fellipe">
+					<img src="/image/imagem branca.webp" />
+				</div>
+				<div class="text-info">
+					<h2>Fellipe</h2>
+					<h4>Profissional de DevOps, otimiza processos com paixão por soluções inovadoras e automação, impulsionando o sucesso de projetos. Comprometido com a atualização constante, contribui para o avanço do universo DevOps</h4>
+				</div>
+				<div class="social-icons">
+					<a href="https://github.com/fellipe" target="_blank">
+						<img src="/icons/github-o-svgrepo-com.svg" alt="GitHub" class="icon" />
+					</a>
+					<a href="https://www.linkedin.com/in/fellipe" target="_blank">
+						<img src="/icons/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon" />
+					</a>
+				</div>
+			</div>
+	
+			<div class="foto-info">
+				<div class="foto-jander">
+					<img src="/image/imagem branca.webp" />
+				</div>
+				<div class="text-info">
+					<h2>Jander</h2>
+					<h4>Desenvolvedor back-end, trabalho atualmente na construções de projeto voltados a API’s / Back-End para sistemas web e manutenções em gerais para sistemas desktop, sendo também desenvolvedor da pycode  mo desenvolvimento de micro-serviços e apoio a back-end.</h4>
+				</div>
+				<div class="social-icons">
+					<a href="https://github.com/jander" target="_blank">
+						<img src="/icons/github-o-svgrepo-com.svg" alt="GitHub" class="icon" />
+					</a>
+					<a href="https://www.linkedin.com/in/jander" target="_blank">
+						<img src="/icons/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon" />
+					</a>
+				</div>
+			</div>
+	
+			<div class="foto-info">
+				<div class="foto-joao">
+					<img src="/image/imagem branca.webp" />
+				</div>
+				<div class="text-info">
+					<h2>João</h2>
+					<h4>Um entusiasta da criação digital, especializado em Desenvolvimento Front-End e Design UI/UX. 
+						Minha jornada é impulsionada pela paixão de construir interfaces web impressionantes e funcionais. </h4>
+				</div>
+				<div class="social-icons">
+					<a href="https://github.com/joao" target="_blank">
+						<img src="/icons/github-o-svgrepo-com.svg" alt="GitHub" class="icon">
+					</a>
+					<a href="https://www.linkedin.com/in/joao" target="_blank">
+						<img src="/icons/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!--Nossas ferramentas de trab, aquelas fotos das linguagens que falei que ia colocar-->
+
+		<section id="s-skills">
+			<div class="grid-layout">
+			  <div id="skills">
+				<article id="skills-text">
+				  <h2 class="delaySmallReveal">Nossas ferramentas<span></span></h2>
+				  <p class="delayMediumReveal changeDescription">
+					Essas são algumas das ferramentas <br />
+					que utilizamos nos nossos desenvolvimentos,<br />
+					ferramentas que vão do back-end ao front-end e mobile
+				  </p>
+				</article>
+	
+				<div id="skills-cards">
+				  <article class="html intervalCardReveal">
+					<img
+					  src="icons/html5-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do html"
+					/>
+				  </article>
+				  <article class="css intervalCardReveal">
+					<img
+					  src="icons/css3-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do Css"
+					/>
+				  </article>
+				  <article class="js intervalCardReveal">
+					<img
+					  src="icons/javascript-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do JavaScript"
+					/>
+				  </article>
+				  <article class="typescript intervalCardReveal">
+					<img
+					  src="icons/typescript-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do typescript"
+					/>
+				  </article>
+				  <article class="tailwind intervalCardReveal">
+					<img
+					  src="icons/tailwind-css-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do tailwind"
+					/>
+				  </article>
+				  <article class="sass intervalCardReveal">
+					<img
+					  src="icons/sass-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do sass"
+					/>
+				  </article>
+				  <article class="php intervalCardReveal">
+					<img
+					  src="icons/php-alt-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do php"
+					/>
+				  </article>
+				  <article class="react intervalCardReveal">
+					<img
+					  src="/icons/react-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do react native"
+					/>
+				  </article>
+	
+				  <article class="next intervalCardReveal">
+					<img
+					  src="/icons/next-dot-js-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do next"
+					/>
+				  </article>
+	
+				  <article class="flutter intervalCardReveal">
+					<img
+					  src="/icons/flutter-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do flutter"
+					/>
+				  </article>
+	
+				  <article class="csharp intervalCardReveal">
+					<img
+					  src="/icons/c-sharp-16-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do csharp"
+					/>
+				  </article>
+	
+				  <article class="java intervalCardReveal">
+					<img
+					  src="/icons/java-svgrepo-com.svg"
+					  width="60px"
+					  height="60px"
+					  alt="ícone do java"
+					/> <!--====JAVA====-->
+				  </article>
+				</div>
+			  </div>
+			</div>
+		  </section>
+  <section id="s-services">
+	  <div class="grid-layout">
+		  <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
+		  <div id="services">
+			  <article class="intervalCardReveal">
+				<div>
+				  <img
+					src="/icons/manage-dashboard-analytic-svgrepo-com.svg"
+					width="100px"
+					height="100px"
+					alt="ícone imagem"
+				  />
+				</div>
+				<h3>Análise</h3>
+				<p>
+					Entendemos suas metas e desafios para criar soluções personalizadas, formando a base do desenvolvimento.
+				</p>
+			  </article>
+			  <article class="intervalCardReveal">
+		  <div>
+			<img
+			  src="/icons/browser-ui-svgrepo-com.svg"
+			  width="100px"
+			  height="100px"
+			  alt="ícone layers"
+			/>
+		  </div>
+		  <h3>UI | UX</h3>
+		  <p>
+			Cada detalhe é planejado para proporcionar uma experiência visualmente envolvente e intuitiva, criando uma jornada digital agradável.
+		  </p>
+		</article>
+
+		<article class="intervalCardReveal">
+		  <div>
+			<img
+			  src="/icons/code-tech-dev-svgrepo-com.svg"
+			  width="100px" 
+			  height="100px"
+			  alt="ícone código"
+			/>
+		  </div>
+		  <h3>Desenvolvimento</h3>
+		  <p>
+			Transformamos ideias em realidade com tecnologia avançada, garantindo desempenho sólido e uma experiência consistente.
+		  </p>
+		</article>
+
+	  </div>
+	</div>
+  </section>
+</main>
+		<script src="script/script.js"></script>
+		<script src="/script/intervall.js"></script>
+	</body>
+</html>
